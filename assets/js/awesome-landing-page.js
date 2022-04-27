@@ -13,101 +13,117 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
 
-        var big_image;
-        $().ready(function() {
-            $('.selector').click(function() {
-                SelectColor(this);
-            });
-            var selectCol = 0;
-            if (selectCol == 0) {
-                if ($('body').hasClass('landing-page1')) {
+let big_image;
+$().ready(function() {
+    $('.selector').click(function() {
+        SelectColor(this);
+    });
+    let selectCol = 0;
+    if (selectCol == 0) {
+        if ($('body').hasClass('landing-page1')) {
 
-                }
-            }
-
-        });
-
-        $(window).on('scroll', function() {
-            responsive = $(window).width();
-            if (responsive >= 768) {
-                parallax();
-            }
-        });
-
-        function SelectColor(btn) {
-            oldColor = $('.filter-gradient').attr('data-color');
-            newColor = $(btn).attr('data-color');
-
-            oldButton = $('a[id^="Demo"]').attr('data-button');
-            newButton = $(btn).attr('data-button');
-
-            $('.filter-gradient').removeClass(oldColor).addClass(newColor).attr('data-color', newColor);
-
-            $('a[id^="Demo"]').removeClass("btn-" + oldButton).addClass("btn-" + newButton).attr('data-button', newButton);
-
-            $('.carousel-indicators').removeClass("carousel-indicators-" + oldColor).addClass("carousel-indicators-" + newColor);
-
-            $('.card').removeClass("card-" + oldColor).addClass("card-" + newColor);
-
-            $('.selector').removeClass('active');
-            $(btn).addClass('active');
         }
+    }
 
-        $('.switch').each(function() {
-            var selector = $(this).parent('li')
-            $(this).click(function() {
-                if (selector.siblings().hasClass('active')) {
-                    selector.addClass('active');
-                    selector.siblings().removeClass('active');
-                    var slide = $(this).attr('data-slide')
-                    var lastClass = $('body').attr('class').split(' ').pop();
-                    $('body').removeClass(lastClass);
-                    $('body').addClass('landing-page' + slide);
-                }
-            });
-        });
+});
 
-        var parallax = debounce(function() {
-            no_of_elements = 0;
-            $('.parallax').each(function() {
-                var $elem = $(this);
+$(window).on('scroll', () => {
+    responsive = $(window).width();
+    if (responsive >= 768) {
+        parallax();
+    }
+});
 
-                if (isElementInViewport($elem)) {
-                    var parent_top = $elem.offset().top;
-                    var window_bottom = $(window).scrollTop();
-                    var $image = $elem.find('.parallax-background-image')
-                    var $oVal = ((window_bottom - parent_top) / 3);
-                    $image.css('margin-top', $oVal + 'px');
-                }
-            });
-        }, 6)
+function SelectColor(btn) {
+    oldColor = $('.filter-gradient').attr('data-color');
+    newColor = $(btn).attr('data-color');
 
-        function debounce(func, wait, immediate) {
-            var timeout;
-            return function() {
-                var context = this,
-                    args = arguments;
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = null;
-                    if (!immediate) func.apply(context, args);
-                }, wait);
-                if (immediate && !timeout) func.apply(context, args);
-            };
-        };
+    oldButton = $('a[id^="Demo"]').attr('data-button');
+    newButton = $(btn).attr('data-button');
 
+    $('.filter-gradient').removeClass(oldColor).addClass(newColor).attr('data-color', newColor);
 
-        function isElementInViewport(elem) {
-            var $elem = $(elem);
+    $('a[id^="Demo"]').removeClass("btn-" + oldButton).addClass("btn-" + newButton).attr('data-button', newButton);
 
-            // Get the scroll position of the page.
-            var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
-            var viewportTop = $(scrollElem).scrollTop();
-            var viewportBottom = viewportTop + $(window).height();
+    $('.carousel-indicators').removeClass("carousel-indicators-" + oldColor).addClass("carousel-indicators-" + newColor);
 
-            // Get the position of the element on the page.
-            var elemTop = Math.round($elem.offset().top);
-            var elemBottom = elemTop + $elem.height();
+    $('.card').removeClass("card-" + oldColor).addClass("card-" + newColor);
 
-            return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+    $('.selector').removeClass('active');
+    $(btn).addClass('active');
+}
+
+$('.switch').each(() => {
+    let selector = $(this).parent('li')
+    $(this).click(function() {
+        if (selector.siblings().hasClass('active')) {
+            selector.addClass('active');
+            selector.siblings().removeClass('active');
+            let slide = $(this).attr('data-slide')
+            let lastClass = $('body').attr('class').split(' ').pop();
+            $('body').removeClass(lastClass);
+            $('body').addClass('landing-page' + slide);
         }
+    });
+});
+
+let parallax = debounce(() => {
+    no_of_elements = 0;
+    $('.parallax').each(() => {
+        let $elem = $(this);
+
+        if (isElementInViewport($elem)) {
+            let parent_top = $elem.offset().top;
+            let window_bottom = $(window).scrollTop();
+            let $image = $elem.find('.parallax-background-image')
+            let $oVal = ((window_bottom - parent_top) / 3);
+            $image.css('margin-top', $oVal + 'px');
+        }
+    });
+}, 6)
+
+function debounce(func, wait, immediate) {
+    let timeout;
+    return () => {
+        let context = this,
+            args = arguments;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        }, wait);
+        if (immediate && !timeout) func.apply(context, args);
+    };
+};
+
+
+function isElementInViewport(elem) {
+    let $elem = $(elem);
+
+    // Get the scroll position of the page.
+    let scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+    let viewportTop = $(scrollElem).scrollTop();
+    let viewportBottom = viewportTop + $(window).height();
+
+    // Get the position of the element on the page.
+    let elemTop = Math.round($elem.offset().top);
+    let elemBottom = elemTop + $elem.height();
+
+    return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+}
+
+let btn = document.querySelector("#top-page")
+
+btn.addEventListener("click", () => {
+    window.scrollTo(0, 0);
+});
+
+/* let jQueryScript = document.createElement('index');
+jQueryScript.setAttribute('src', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
+document.head.appendChild(jQueryScript);
+
+let btn = $("#back-to-top");
+
+btn.click(function() {
+  $('html, body').animate({scrollTop:0}, 'slow');
+}); */
