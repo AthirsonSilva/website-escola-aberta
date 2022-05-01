@@ -28,4 +28,5 @@ License.MD
 
 ## Link do deploy
 
-Link do site: <http://escola-aberta.great-site.net/?i=1>
+Link do deploy no infinity-free: <http://escola-aberta.great-site.net/?i=1>
+Link do deploy no Heroku: <https://escola-aberta.herokuapp.com/>
