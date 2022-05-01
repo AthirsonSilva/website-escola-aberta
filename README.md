@@ -1,6 +1,6 @@
 ### Projeto
 
-Within the download you'll find the following directories and files:
+Estrutura do projeto:
 
 ```
 awesome_landing_page/
@@ -18,13 +18,14 @@ awesome_landing_page/
 |   └── img/
 |
 ├── index.html
+|── fontes/
 
 ```
 
-## License
+## Licença
 
 License.MD
 
-## Useful Links
+## Link do deploy
 
-Link do site: <em breve>
+Link do site: <http://escola-aberta.great-site.net/?i=1>
