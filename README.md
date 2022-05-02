@@ -26,7 +26,10 @@ awesome_landing_page/
 
 License.MD
 
-## Link do deploy
+## Links do deploys
 
-Link do deploy no infinity-free: <http://escola-aberta.great-site.net/?i=1>
-Link do deploy no Heroku: <https://escola-aberta.herokuapp.com/>
+infinity-free: <http://escola-aberta.great-site.net/?i=1>
+<br>
+Heroku: <https://escola-aberta.herokuapp.com/>
+<br>
+GitHub Pages: <https://athirsonsilva.github.io/website-escola-aberta/>
