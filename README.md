@@ -29,4 +29,7 @@ License.MD
 ## Link do deploy
 
 Link do deploy no infinity-free: <http://escola-aberta.great-site.net/?i=1>
+<br>
 Link do deploy no Heroku: <https://escola-aberta.herokuapp.com/>
+<br>
+Link do deploy no GitHub Pages: <https://athirsonsilva.github.io/website-escola-aberta/>
