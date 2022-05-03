@@ -596,11 +596,11 @@ if (typeof jQuery === 'undefined') {
     this.$element
       .removeClass('collapse')
       .addClass('collapsing')[dimension](0)
-      .attr('aria-expanded', true)
+      .attr('aria-demandaed', true)
 
     this.$trigger
       .removeClass('collapsed')
-      .attr('aria-expanded', true)
+      .attr('aria-demandaed', true)
 
     this.transitioning = 1
 
@@ -636,11 +636,11 @@ if (typeof jQuery === 'undefined') {
     this.$element
       .addClass('collapsing')
       .removeClass('collapse in')
-      .attr('aria-expanded', false)
+      .attr('aria-demandaed', false)
 
     this.$trigger
       .addClass('collapsed')
-      .attr('aria-expanded', false)
+      .attr('aria-demandaed', false)
 
     this.transitioning = 1
 
@@ -677,10 +677,10 @@ if (typeof jQuery === 'undefined') {
   Collapse.prototype.addAriaAndCollapsedClass = function ($element, $trigger) {
     var isOpen = $element.hasClass('in')
 
-    $element.attr('aria-expanded', isOpen)
+    $element.attr('aria-demandaed', isOpen)
     $trigger
       .toggleClass('collapsed', !isOpen)
-      .attr('aria-expanded', isOpen)
+      .attr('aria-demandaed', isOpen)
   }
 
   function getTargetFromTrigger($trigger) {
@@ -785,7 +785,7 @@ if (typeof jQuery === 'undefined') {
 
       $this
         .trigger('focus')
-        .attr('aria-expanded', 'true')
+        .attr('aria-demandaed', 'true')
 
       $parent
         .toggleClass('open')
@@ -841,7 +841,7 @@ if (typeof jQuery === 'undefined') {
 
       if (e.isDefaultPrevented()) return
 
-      $this.attr('aria-expanded', 'false')
+      $this.attr('aria-demandaed', 'false')
       $parent.removeClass('open').trigger('hidden.bs.dropdown', relatedTarget)
     })
   }
@@ -2034,12 +2034,12 @@ if (typeof jQuery === 'undefined') {
           .removeClass('active')
         .end()
         .find('[data-toggle="tab"]')
-          .attr('aria-expanded', false)
+          .attr('aria-demandaed', false)
 
       element
         .addClass('active')
         .find('[data-toggle="tab"]')
-          .attr('aria-expanded', true)
+          .attr('aria-demandaed', true)
 
       if (transition) {
         element[0].offsetWidth // reflow for transition
@@ -2054,7 +2054,7 @@ if (typeof jQuery === 'undefined') {
             .addClass('active')
           .end()
           .find('[data-toggle="tab"]')
-            .attr('aria-expanded', true)
+            .attr('aria-demandaed', true)
       }
 
       callback && callback()
@@ -2274,3 +2274,56 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+
+const investimento = document.querySelector('#investimento')
+let counter_investimento = true
+
+investimento.addEventListener('click', () => {
+  if (counter_investimento) {
+    investimento.style.transform = "scale(1.4)"
+    counter_investimento = false
+  } else {
+    investimento.style.transform = "scale(1.0)"
+    counter_investimento = true
+  }
+})
+
+const medidas = document.querySelector('#medidas')
+let counter_medidas = true
+
+medidas.addEventListener('click', () => {
+  if (counter_medidas) {
+    medidas.style.transform = "scale(1.4)"
+    counter_medidas = false
+  } else {
+    medidas.style.transform = "scale(1.0)"
+    counter_medidas = true
+  }
+})
+
+const efeitos = document.querySelector('#efeitos')
+let counter_efeitos = true
+
+efeitos.addEventListener('click', () => {
+  if (counter_efeitos) {
+    efeitos.style.transform = "scale(1.4)"
+    counter_efeitos = false
+  } else {
+    efeitos.style.transform = "scale(1.0)"
+    counter_efeitos = true
+  }
+})
+
+const demanda = document.querySelector('#demanda')
+let counter_demanda = true
+
+demanda.addEventListener('click', () => {
+  if (counter_demanda) {
+    demanda.style.transform = "scale(1.4)"
+    counter_demanda = false
+  } else {
+    demanda.style.transform = "scale(1.0)"
+    counter_demanda = true
+  }
+})

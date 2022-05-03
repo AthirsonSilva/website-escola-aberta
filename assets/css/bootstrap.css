@@ -6362,3 +6362,6 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.get-justified {
+  text-align: justify;
+}
