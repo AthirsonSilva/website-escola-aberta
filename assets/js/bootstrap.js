@@ -2353,3 +2353,55 @@ mortes.addEventListener('click', () => {
     counter_mortes = true
   }
 })
+
+const amazon = document.querySelector('#amazon')
+let counter_amazon = true
+
+amazon.addEventListener('click', () => {
+  if (counter_amazon) {
+    amazon.style.transform = "scale(1.4)"
+    counter_amazon = false
+  } else {
+    amazon.style.transform = "scale(1.0)"
+    counter_amazon = true
+  }
+})
+
+const ifood = document.querySelector('#ifood')
+let counter_ifood = true
+
+ifood.addEventListener('click', () => {
+  if (counter_ifood) {
+    ifood.style.transform = "scale(1.4)"
+    counter_ifood = false
+  } else {
+    ifood.style.transform = "scale(1.0)"
+    counter_ifood = true
+  }
+})
+
+const detran = document.querySelector('#detran')
+let counter_detran = true
+
+detran.addEventListener('click', () => {
+  if (counter_detran) {
+    detran.style.transform = "scale(1.4)"
+    counter_detran = false
+  } else {
+    detran.style.transform = "scale(1.0)"
+    counter_detran = true
+  }
+})
+
+const magalu = document.querySelector('#magalu')
+let counter_magalu = true
+
+magalu.addEventListener('click', () => {
+  if (counter_magalu) {
+    magalu.style.transform = "scale(1.4)"
+    counter_magalu = false
+  } else {
+    magalu.style.transform = "scale(1.0)"
+    counter_magalu = true
+  }
+})
