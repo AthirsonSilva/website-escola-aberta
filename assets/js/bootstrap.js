@@ -2327,3 +2327,29 @@ demanda.addEventListener('click', () => {
     counter_demanda = true
   }
 })
+
+const casos = document.querySelector('#casos')
+let counter_casos = true
+
+casos.addEventListener('click', () => {
+  if (counter_casos) {
+    casos.style.transform = "scale(1.4)"
+    counter_casos = false
+  } else {
+    casos.style.transform = "scale(1.0)"
+    counter_casos = true
+  }
+})
+
+const mortes = document.querySelector('#mortes')
+let counter_mortes = true
+
+mortes.addEventListener('click', () => {
+  if (counter_mortes) {
+    mortes.style.transform = "scale(1.4)"
+    counter_mortes = false
+  } else {
+    mortes.style.transform = "scale(1.0)"
+    counter_mortes = true
+  }
+})

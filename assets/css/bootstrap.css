@@ -6365,3 +6365,11 @@ button.close {
 .get-justified {
   text-align: justify;
 }
+
+#casos {
+  margin: 50px auto 90px auto;
+}
+
+img {
+  margin: 80px auto 80px auto;
+}
