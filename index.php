@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="assets/img/etec.jpg">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>ETEC - Escola aberta</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/landing-page.css" rel="stylesheet"/>
+
+        <!--     Fonts and icons     -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+        <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+        <link href="assets/css/fonte.css" rel="stylesheet">
+
+    </head>
+    <body class="landing-page landing-page1">
+        <div class="wrapper">
+            <div class="parallax filter-gradient" data-color="blue">
+                <div class="parallax-background">
+                    <img class="parallax-background-image not-blur" src="assets/img/etecG.jpg">
+                </div>
+                <div class="bg-image">
+                    <div class="row">
+                        <div class="container blur">
+                        <div class="col-md-5 hidden-xs">
+                            <div class="parallax-image">
+                                <a href="https://brasil.un.org/pt-br/sdgs" target="blank"><img class="phone" src="assets/img/objetivos-onu-removebg-preview.png" style="margin-top: 20px"/></a>
+                            </div>
+                        </div>
+														
+                        <div class="col-md-6 col-md-offset-1">
+                            <div class="description">
+                                    <h2>ETEC Escola aberta.</h2>
+                                    <br>
+                                    <h5>17 objetivos de desenvolvimento sustentável da ONU até 2030 </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-clients">
+                <div class="container text-center">
+                    <div class="col md-5"></div>
+                    <h1 class="header-text">Benefícos e usos do TI</h1>
+                    <div class="row">
+                        <h2 class="header-text">• Como a TI entra nas empresas </h2>
+                        <p class="get-justified content">
+                            A TI envolve todas as atividades que utilizam recursos computacionais para atuar dentro de empresas e organizações para melhorá-las. 
+                            Com a necessidade das empresas se aprimorarem e aumentarem seu lucro, as empresas pensaram em maneiras de inovar, deixar seus serviços mais práticos, e aí que a TI entra. 
+                            Os conhecimentos básicos da tecnologia são extremamente importantes e também exigidos pelas empresas. 
+                            Um exemplo simples da atuação da área da TI, seria a criação de sistemas privados das empresas. Mesmo que a empresa seja tradicional, ainda é necessário o armazenamento de dados dos clientes, ou seja, para uma empresa funcionar atualmente, é necessária a área da TI.   
+                        </p>
+                        <img id="demanda" src="assets/img/demanda.png" height="600px" width="800px" alt="">
+                        <p class="get-justified graph">
+                            A procura por profissionais de tecnologia cresceu mais de 670% só em 2020. Um dos profissionais mais procurados é o desenvolvedor, fundamental para o avanço da revolução tecnológica em curso.
+                            A terceira reportagem da série especial Economia Digital mostra como novas oportunidades no mercado de trabalho impulsionam a tecnologia brasileira.
+                            <br><br>
+                            No Brasil, desde o início da pandemia, houve 85 mil novas vagas para quem lida com tecnologia. Para algumas funções, em São Paulo, a procura por profissionais em 2020 cresceu mais de 600%.
+                            “Todas as empresas de tecnologia estão recrutando. Ao mesmo tempo, a gente também tem uma revisão do que é o formato de empresa do mundo de hoje”, diz o co-fundador da 99 Jobs, Eduardo Migliano.
+                            Essa revolução digital colocou os profissionais de tecnologia em um novo mundo. Entre as 10 profissões que mais cresceram no Brasil estão analista de sistemas, analista de suporte, analista de business intelligence e desenvolvedor.
+                        </p>
+                        <img id="investimento" src="assets/img/erp-crm-04.png" height="600px" width="800px" alt="">
+                        <h5>• Armazenamento de Dados de Clientes e Funcionários  </h5>
+                        <p class="get-justified">
+                            Uma gestão corporativa eficiente é altamente baseada em informações relevantes — quanto ao negócio e seus processos, ao mercado e aos clientes. Para que isso seja possível, é cada vez maior a necessidade de contar com um sistema para fazer o armazenamento de dados da empresa.
+                            Versátil, uma solução desse tipo é capaz de ajudar indústrias e comércios de diversos setores em uma grande quantidade de situações. Com isso, planejar desde já uma consolidação de dados é fundamental se você deseja o sucesso.
+                            Além de contar com uma solução tecnológica, o armazenamento de dados também necessita de uma estratégia e de uma estruturação para que seja feito de maneira sustentável. Portanto, não se trata apenas do uso de ferramentas tecnológicas, mas também de uma inteligência de negócio.
+                        </p>
+                        <h2 class="header-text">• Benefícios da TI nas empresas  </h2>
+                        <h5>• Cliente é beneficiado com</h5>
+                        <p class="get-justified">
+                            <strong>Acessibilidade</strong>: Hoje todas as empresas precisam ter acessibilidade no atendimento ao cliente. Sem isso é impossível atender a todos os clientes. 
+                            Mas sabemos que hoje em dia o atendimento de muitas empresas é ineficiente, fazendo com que muitos consumidores fiquem insatisfeitos com a marca e acabe procurando pelo concorrente. 
+                            A técnologia aumenta a acessibilidade do cliente com a empresa de uma forma que processos antes difíceis de acessar agoram tornam-se possíveis na palma da mão.
+                            <br><br>
+                            <strong>Segurança</strong>: A fragilidade do mundo da informação em que vivemos exige controles fortes de segurança cibernética. A administração deve ver que todos os sistemas são construídos de acordo com determinados padrões de segurança. Esses padrões podem ter erros e alguns desses erros são falhas de segurança.
+                            <br><br>
+                            <strong>Flexibilidade</strong>: É por isso que muitos negócios estão flexibilizando horários e locações para a acessibilidade dos seus clientes. Inclusive, várias empresas vêm permitindo o acesso aos seus serviços de forma remota como forma de acelerar processos e entregar resultados com uma velocidade maior.
+                            <br><br>
+                        </p>
+                        <img src="assets/img/cliente-removebg-preview.png" height="300px" width="500px" alt="">
+                        <h5>• Empresa é beneficiada com</h5>
+                        <p class="get-justified">
+                            <strong>Processos rápidos e fáceis:</strong> A tecnologia vem permitindo que departamentos de uma empresa consigam se alinhar como nunca antes foi possível, por mais diferente que sejam suas atuações na rotina do negócio.
+
+                            Isso se reflete na produtividade direta do trabalho das equipes e também em uma sinergia maior entre diferentes etapas de produção. Sistemas capazes de unir Marketing e Vendas aumentam exponencialmente a capacidade de atração de público em um negócio, por exemplo.
+                            <br><br>
+                            <strong>Lucratividade</strong>: A tecnologia pode permitir a um negócio ampliar sua capacidade de atendimento, as suas vendas e até mesmo a entrega de produtos finais sem demandar da compra de mais equipamentos, da contratação de mais pessoas ou da ampliação do seu espaço físico.  
+
+                            <br><br>
+                        </p>
+                        <img src="assets/img/empresa-removebg-preview.png" height="300px" width="500px" alt="">
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-gray section-demo">
+                <div class="container text-center">
+                    <div class="row">
+                        <h4 class="header-text">Efeitos da pandemia</h4>
+                            <img id="medidas" src="assets/img/medidas.png" height="600px" width="800px" alt="">
+                            <p class="get-justified">Os dados sinalizam que a covid-19 impactou mais fortemente segmentos que, para a realização de suas atividades, 
+                                não podem prescindir do contato pessoal
+                                
+                                como os bares  restaurantes, e hospedagem; além do setor de construção”<br><br>
+                                .O Governo Federal e o Banco Central do Brasil anunciaram diversas medidas para minimizar os efeitos da crise e auxiliar na manutenção do emprego e da renda. A pesquisa questionou o empresariado sobre a eficiência das ações em seus negócios: 31% afirmaram que as medidas ajudaram na oferta de crédito, 44% na flexibilização das leis trabalhistas e previdenciárias e 28% em aspectos tributários. No entanto, 20% disseram que as medidas do Governo ou Banco Central não contribuíram para auxiliá-las no combate aos efeitos da crise. 
+                            </p>
+                            <img id="efeitos" src="assets/img/efeitos-removebg-preview.png" height="600px" width="800px" alt="">
+                            
+                            <p class="get-justified">
+                                A pandemia de Covid-19 provocou uma crise sanitária e econômica global sem precedentes na história recente. Entre as consequências dessa crise estão os impactos nos negócios. Para identificar quais as principais estratégias adotadas pelas empresas durantes a crise e qual o planejamento para o cenário pós-crise, a Grant Thornton realizou um levantamento utilizando a metodologia do International Business Report (IBR) com a participação de cerca de cinco mil lideranças do middle-market em 29 países, incluindo o Brasil.
+
+De acordo com o estudo, 68% das empresas brasileiras recorreram a alguma forma de financiamento devido à crise. A pesquisa mostrou que 33% dos empresários brasileiros pesquisados buscaram estender prazos ou reduzir os valores das obrigações com fornecedores e ou prestadores de serviços, 23% recorreram a crédito para capital de giro com instituições financeiras, 19% para folha de pagamento, também através de instituições financeiras e, 18% precisaram integralizar capital para honrar seus compromissos. 
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-demo">
+                <div class="container text-center">
+                    <div class="row">
+                        <h1 class="header-text">Situação do páis durante a pandêmia</h1>
+
+                        <div>
+                            <p class="get-justified">
+                                O Brasil chegou aos 10 milhões de casos registrados de covid-19 antes mesmo de um ano do primeiro caso confirmado do novo coronavírus, em 26 de fevereiro do ano passado. A cada três segundos, um brasileiro teve confirmada a doença, que já matou mais de 240 mil pessoas, o equivalente a uma cidade do porte de Itaboraí, no Rio, a 120ª maior do país. <br><br>
+Na esteira da “maior crise sanitária da nossa época”, como chamou a Organização Mundial de Saúde (OMS), a economia brasileira mais uma vez não andou — ou melhor, foi para trás. A estimativa mais recente de analistas consultados pelo Banco Central é que o PIB (Produto Interno Bruto) tenha encolhido 4,3% no ano passado.
+                            </p>
+                        </div>
+                        <img id="casos" src="assets/img/casos-covid.jpg" height="600px" width="800px" alt=""><br><br>
+                        <p class="get-justified">
+                            Cada Estado pode contar a pandemia de um modo diferente, mas a verdade é que a economia brasileira sofreu um tombo histórico. Uma queda de 4,3%, como prevista por analistas, a colocaria em patamar similar ao dos dois piores anos do PIB nacional: 1990 (-4,35%) e 1981 (-4,25%). Mesmo para um país que acumula resultados medíocres desde 2014, o desempenho de 2020 foi fora da curva. <br><br>
+E o cenário chegou a ser ainda pior. No fim do primeiro semestre falava-se que o PIB brasileiro iria encolher algo em torno de 6,5% em 2020. Os mais pessimistas na época apostavam em contração de 11%. E a economia teve retração de 9,7% no segundo trimestre em relação aos três meses anteriores.
+                        </p>
+                        <img id="mortes" src="assets/img/mortes-covid.jpg" height="600px" width="800px" alt="">   
+                        <div class="col-md-6">
+                            <h5>• Cerca de 600mil empresas fecharam as portas no intervalo de dois anos. </h5>
+                            <h5>• Entre 2019 e 2021 o número de empregados no setor privado caiu 10,1%. </h5>
+                            <h5>• Nesse período houve uma redução de 4.5 milhões de vagas no mercado.</h5>
+                            <h5>• Segundo o IBGE a pandemia causou um impacto negativo em todos os setores econômicos.</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>• Dentre 100% ela afetou especialmente o comércio com 39,4% e serviços com 37%.</h4>
+                                <h5>• As pequenas empresas foram as mais afetadas. 98,8% dos negócios não voltaram a abrir as portas.</h4>
+                                <h5>• No segundo quadrimestre de 2021, o país já registrou alta na quantidade de empresas.</h4>
+                                <h5>• No último quadrimestre o número de empresas abertas ultrapassou a marca de 1 milhão. </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-gray section-demo">
+                <div class="container text-center">
+		<h4 class="header-text"> Casos e exemplos </h4><br><br>
+                    <div class="row">
+                            <p class="get-justified">• <strong>Parceiro Magalu</strong>: 
+                                É uma plataforma lançada pela Magazine Luiza para seus usuários criarem lojas virtuais. 
+                                A ideia é que as pessoas autônomas criem sua própria loja virtual no Magazine Luiza 
+                                e atuem como divulgadoras dos produtos vendidos e entregues pela própria Magalu e também de outros sellers.
+                                Já a opção Parceiro Magalu para Empresas permite que você venda seus produtos online para os mais de 20 milhões de clientes do marketplace,
+                                além dos seus próprios clientes da loja física (se ela estiver fechada ou com expediente reduzido durante a pandemia, é uma ótima opção para não estagnar a operação)
+                            </p>
+                            <img id="magalu" src="assets/img/parceiro-magalu.png" height="600px" width="800px" alt="">   
+			                <p class="get-justified">• <strong>IFood </strong>:  
+                                Aplicativos de delivery se tornaram popular facilitando o acesso do usuário a entrega de comida direto do seu celular em poucos clicks.
+                                O iFood é uma empresa brasileira fundada em 2011, atuante no ramo de entrega de comida pela internet, sendo líder no setor na América Latina, com presença na Argentina, no México e na Colômbia. 
+                                O iFood é um serviço de Delivery online. O cliente pode pedir uma refeição sem sair de casa através do app no Smartphone. 
+                                O aplicativo é gratuito e já virou hábito dos brasileiros, pois possibilita uma filtragem de acordo com o local, valores de entrega e categoria dos produtos.
+                            </p>                   
+                            <img id="ifood" src="assets/img/ifood.png" height="600px" width="800px" alt="">   
+                            <p class="get-justified">• <strong>Amazon </strong>: 
+                                As lojas online tiveram muitos acesso na pandemia pois facilita ao consumidor a compra e a entrega direto na sua residência.  
+                                Amazon.com, Inc. é uma empresa multinacional de tecnologia norte-americana com sede em Seattle, Washington. 
+                                A Amazon foi criada por Jeff Bezos em 1994, quando a internet ainda não havia se popularizado. Prevendo os avanços que poderiam acontecer na rede, o executivo resolveu criar um novo modelo de negócio que mais tarde revolucionaria o mercado.
+                                A companhia se concentra no e-commerce, computação em nuvem, streaming e inteligência artificial. 
+                                É considerada uma das cinco grandes empresas de tecnologia, juntamente com Google, Apple, Microsoft e Facebook.
+                            </p>
+                            <img id="amazon" src="assets/img/amazon.png" height="600px" width="800px" alt="">   
+                            <p class="get-justified">• <strong>Serviços do Detran </strong>: 
+                                Durante a pandemia os serviços do Detran pararam por um tempo, mas voltaram digital. Assim, os serviços ficaram mais eficientes e práticos. 
+                                Os Departamentos Estaduais de Trânsito são os órgãos do Poder Executivo Estadual que fiscalizam o trânsito de veículos terrestres em suas respectivas jurisdições, no território Brasileiro. 
+                                Entre suas atribuições estão a determinação das normas para formação e fiscalização de condutores.
+                                O DETRAN é um órgão que tem como função, administrar e fiscalizar o trânsito de veículos assim como a formação de seus condutores.
+                            </p>
+                            <img id="detran" src="assets/img/detran.png" height="600px" width="800px" alt="">   
+                    </div>
+                </div>
+            </div>
+            <div class="section section-features">
+                <div class="container">
+                    <h4 class="header-text text-center">Sobre os Módulos</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-blue">
+                                <div class="icon">
+                                    <h1>1°</h1>
+                                </div>
+                                <div class="text">
+                                    <h4 style="font-weight: bold;">Primeiro módulo</h4>
+                                    <ul style="margin-top: 30px;">
+                                        <li>Lógica de programação (Java)</li>
+                                        <li>Introdução a programação web (Sites)</li>
+                                        <li>Introdução a banco de dados (modelagem)</li>
+                                        <li>Inglês instrumental (Escrita e leitura)</li>
+                                    </ul>
+                                       <br><br><br><br><br><br><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-blue">
+                                <div class="icon">
+                                    <h1>2°</h1>
+                                </div>
+                                <div class="text">
+                                    <h4 style="font-weight: bold;">Segundo módulo</h4>
+                                    <ul style="margin-top: 30px;">
+                                        <li>Módulo implementação da lógica em softwares (Java)</li>
+                                        <li>Introdução a programação mobile (AndroidStudio/ Java)</li>
+                                        <li>Criação de banco de dados (SQL Server e MySQL)</li>
+                                        <li>Avanço na programação web com implementação de banco de dados (PHP com Banco)</li>
+                                        <li>Inicialização e planejamento do TCC (Trabalho de conclusão de curso)</li>
+                                        <li>Estudos em redes de computadores</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-blue">
+                                <div class="icon">
+
+                                    <!-- FONTE -->
+                                    <style>
+                                        @font-face {
+                                        font-family: 'gem';
+                                        src: url('Gemstone') format('truetype');
+                                        font-weight:bold;
+                                        font-style: normal;
+                                        
+                                    }
+                                    
+                                    h1{
+                                        font-family:'gem', Courier, monospace;
+                                        font-weight: bold;
+                                    }
+                                    </style>
+
+                                    <h1>3°</h1>
+                                </div>
+                                <div class="text">
+                                    <h4 style="font-weight: bold;">Terceiro módulo</h4>
+                                    <ul style="margin-top: 30px;">
+                                        <li>Avanço na programação web com banco de dados (PHP/ MySQL)</li>
+                                        <li>Avanço na programação mobile (AndroidStudio/ Java)</li>
+                                        <li>Introdução na robótica (Arduíno)</li>
+                                        <li>Finalização do TCC</li>
+                                    </ul>
+                                        <br><br><br><br><br><br><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-gray section-no-padding">
+                <div class="parallax filter-gradient" data-color="blue">
+                    <div class="parallax-background">
+                        <img class ="parallax-background-image blurg2" src="assets/img/etecG2.jpg"/>
+                    </div>
+                    <div class="info blur-text">
+                        <h1><b>ETEC de Guaianazes</b></h1>
+                        <h3>Centro de educação Paula Souza</h3>
+                        <p>Curso análise e desenvolvimento de sistemas</p><br>
+                        <a target="blank" href="https://www.vestibulinhoetec.com.br/home/"><button id="top-page" type="button" class="btn btn-primary">Vestibulinho ETEC - 2022</button></a>
+                        <a target="blank" href="http://www.etecdeguaianazes.com.br/"><button id="top-page" type="button" class="btn btn-primary">Site oficial da ETEC</button></a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="copyright">
+                        &copy; 2022 <a href="http://www.etecdeguaianazes.com.br/">Etec de Guaianazes</a>, Centro Paula Souza
+                    </div>
+                </div>
+            </footer>   
+        </div>
+
+    </body>
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/awesome-landing-page.js" type="text/javascript"></script>
+</html>
