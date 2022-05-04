@@ -127,3 +127,126 @@ let btn = $("#back-to-top");
 btn.click(function() {
   $('html, body').animate({scrollTop:0}, 'slow');
 }); */
+
+const investimento = document.querySelector('#investimento')
+const medidas = document.querySelector('#medidas')
+const efeitos = document.querySelector('#efeitos')
+const demanda = document.querySelector('#demanda')
+const casos = document.querySelector('#casos')
+const mortes = document.querySelector('#mortes')
+const amazon = document.querySelector('#amazon')
+const ifood = document.querySelector('#ifood')
+const detran = document.querySelector('#detran')
+const magalu = document.querySelector('#magalu')
+
+let counter_investimento = true
+let counter_medidas = true
+let counter_efeitos = true
+let counter_demanda = true
+let counter_casos = true
+let counter_mortes = true
+let counter_amazon = true
+let counter_ifood = true
+let counter_detran = true
+let counter_magalu = true
+
+
+investimento.addEventListener('click', () => {
+  if (counter_investimento) {
+    investimento.style.transform = "scale(1.4)"
+    counter_investimento = false
+  } else {
+    investimento.style.transform = "scale(1.0)"
+    counter_investimento = true
+  }
+})
+
+medidas.addEventListener('click', () => {
+  if (counter_medidas) {
+    medidas.style.transform = "scale(1.4)"
+    counter_medidas = false
+  } else {
+    medidas.style.transform = "scale(1.0)"
+    counter_medidas = true
+  }
+})
+
+efeitos.addEventListener('click', () => {
+  if (counter_efeitos) {
+    efeitos.style.transform = "scale(1.4)"
+    counter_efeitos = false
+  } else {
+    efeitos.style.transform = "scale(1.0)"
+    counter_efeitos = true
+  }
+})
+
+demanda.addEventListener('click', () => {
+  if (counter_demanda) {
+    demanda.style.transform = "scale(1.4)"
+    counter_demanda = false
+  } else {
+    demanda.style.transform = "scale(1.0)"
+    counter_demanda = true
+  }
+})
+
+casos.addEventListener('click', () => {
+  if (counter_casos) {
+    casos.style.transform = "scale(1.4)"
+    counter_casos = false
+  } else {
+    casos.style.transform = "scale(1.0)"
+    counter_casos = true
+  }
+})
+
+mortes.addEventListener('click', () => {
+  if (counter_mortes) {
+    mortes.style.transform = "scale(1.4)"
+    counter_mortes = false
+  } else {
+    mortes.style.transform = "scale(1.0)"
+    counter_mortes = true
+  }
+})
+
+amazon.addEventListener('click', () => {
+  if (counter_amazon) {
+    amazon.style.transform = "scale(1.4)"
+    counter_amazon = false
+  } else {
+    amazon.style.transform = "scale(1.0)"
+    counter_amazon = true
+  }
+})
+
+ifood.addEventListener('click', () => {
+  if (counter_ifood) {
+    ifood.style.transform = "scale(1.4)"
+    counter_ifood = false
+  } else {
+    ifood.style.transform = "scale(1.0)"
+    counter_ifood = true
+  }
+})
+
+detran.addEventListener('click', () => {
+  if (counter_detran) {
+    detran.style.transform = "scale(1.4)"
+    counter_detran = false
+  } else {
+    detran.style.transform = "scale(1.0)"
+    counter_detran = true
+  }
+})
+
+magalu.addEventListener('click', () => {
+  if (counter_magalu) {
+    magalu.style.transform = "scale(1.4)"
+    counter_magalu = false
+  } else {
+    magalu.style.transform = "scale(1.0)"
+    counter_magalu = true
+  }
+})
