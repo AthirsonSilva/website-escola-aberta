@@ -9,4 +9,8 @@ if (PHP_VERSION_ID < 50600) {
 
 require_once __DIR__ . '/composer/autoload_real.php';
 
+$log = new Monolog\Logger('name');
+$log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::WARNING));
+$log->warning('Foo');
+
 return ComposerAutoloaderInita1d7fb75710a5aa27b8234be827a243c::getLoader();
